@@ -1,3 +1,5 @@
+import "./Character.css";
+
 const Character = ({ selectedChar }) => {
   return (
     <>
