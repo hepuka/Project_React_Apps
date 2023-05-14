@@ -1,12 +1,16 @@
 import React from "react";
 import "../App.css";
+import "../Movies/ButtonList.css";
 
 const ButtonList = ({ character, onclickFunction }) => {
   const renderButton = (character, index) => {
     return (
-      <button type="button" key={index} onClick={onclickFunction(index)}>
-        {character.name}
-      </button>
+      <div className="btns">
+        {" "}
+        <button type="button" key={index} onClick={onclickFunction(index)}>
+          {character.name}
+        </button>
+      </div>
     );
   };
 

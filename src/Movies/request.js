@@ -1,3 +1,4 @@
+const API_KEY = "52fdd6d9a3df88d36d7a1d7deb00fb44";
 const baseUrl = "https://api.themoviedb.org/3";
 
 const request = {
@@ -10,5 +11,40 @@ const request = {
   fetchRomanceMovies: `${baseUrl}/discover/movie?api_key=${API_KEY}&with_genres=10749`,
   fetchDocumentaries: `${baseUrl}/discover/movie?api_key=${API_KEY}&with_genres=99`,
 };
+
+export const datas = [
+  {
+    name: "NETFLIX ORIGINALS",
+    selected: false,
+  },
+  {
+    name: "Trending Now",
+    selected: false,
+  },
+  {
+    name: "Top Rated",
+    selected: false,
+  },
+  {
+    name: "Action Movies",
+    selected: false,
+  },
+  {
+    name: "Comedy Movies",
+    selected: false,
+  },
+  {
+    name: "Horror Movies",
+    selected: false,
+  },
+  {
+    name: "Romance Movies",
+    selected: false,
+  },
+  {
+    name: "Documentaries",
+    selected: false,
+  },
+];
 
 export default request;

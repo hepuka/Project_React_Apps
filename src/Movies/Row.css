@@ -1,0 +1,13 @@
+.row__poster {
+  height: 100px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.movies {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
