@@ -4,6 +4,7 @@ import Home from "./Home";
 import Counter from "./Counter/Counter";
 import Calculator from "./Calculator/Calculator";
 import StarWars from "./StarWars/StarWars";
+import Movies from "./Movies/Movies";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/counter" element={<Counter />}></Route>
           <Route path="/calculator" element={<Calculator />}></Route>
           <Route path="/starwars" element={<StarWars />}></Route>
+          <Route path="/movies" element={<Movies />}></Route>
         </Routes>
       </BrowserRouter>
     </>

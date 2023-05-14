@@ -15,6 +15,9 @@ const Home = () => {
           <li>
             <Link to="/starwars">Star Wars</Link>
           </li>
+          <li>
+            <Link to="/movies">Movies</Link>
+          </li>
         </ol>
       </nav>
       <div></div>
